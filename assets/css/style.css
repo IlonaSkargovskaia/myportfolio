@@ -480,6 +480,22 @@ section {
   background-color: #149ddd;
 }
 
+.skills-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+
+.skills-img img{
+  max-width: 130px;
+  max-height: 50px;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
