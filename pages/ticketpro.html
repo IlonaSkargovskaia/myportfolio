@@ -11,7 +11,10 @@
         <meta content="" name="keywords" />
 
         <link href="../assets/img/favicon.png" rel="icon" />
-        <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+        <link
+            href="../assets/img/apple-touch-icon.png"
+            rel="apple-touch-icon"
+        />
 
         <!-- Fonts -->
         <link
@@ -87,26 +90,34 @@
                 <nav id="navbar" class="nav-menu navbar">
                     <ul>
                         <li>
-                            <a href="../index.html#about" class="nav-link scrollto"
+                            <a
+                                href="../index.html#about"
+                                class="nav-link scrollto"
                                 ><i class="bx bx-user"></i>
                                 <span>About me</span></a
                             >
                         </li>
                         <li>
-                            <a href="../index.html#resume" class="nav-link scrollto"
+                            <a
+                                href="../index.html#resume"
+                                class="nav-link scrollto"
                                 ><i class="bx bx-file-blank"></i>
                                 <span>Experience</span></a
                             >
                         </li>
                         <li>
-                            <a href="../index.html#portfolio" class="nav-link scrollto"
+                            <a
+                                href="../index.html#portfolio"
+                                class="nav-link scrollto"
                                 ><i class="bx bx-book-content"></i>
                                 <span>Portfolio</span></a
                             >
                         </li>
 
                         <li>
-                            <a href="../index.html#contact" class="nav-link scrollto"
+                            <a
+                                href="../index.html#contact"
+                                class="nav-link scrollto"
                                 ><i class="bx bx-envelope"></i>
                                 <span>Contact</span></a
                             >
@@ -120,7 +131,6 @@
         </header>
 
         <main id="main">
-            
             <section id="breadcrumbs" class="breadcrumbs">
                 <div class="container">
                     <div
@@ -134,7 +144,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <section id="portfolio-details" class="portfolio-details">
                 <div class="container">
                     <div class="row gy-4">
@@ -207,37 +217,209 @@
                                 <h3>Project information</h3>
                                 <ul>
                                     <li>
-                                        <strong>Category</strong>: Full Stack
+                                        <strong>Category</strong>: Full-Stack
                                     </li>
                                     <li>
-                                        <strong>Tech stack</strong>: React.js, Node.js, PostgreSQL, AWS, JWT, Leaflet, HTML5, CSS3
+                                        <strong>Tech stack</strong>: React.js,
+                                        Node.js, PostgreSQL, AWS, auth with JWT,
+                                        localStorage, Nodemailer, Leaflet,
+                                        HTML5, CSS3
                                     </li>
                                     <li>
-                                        <strong>Project date</strong>: 20 August,
-                                        2023
+                                        <strong>Project date</strong>: 20
+                                        August, 2023
                                     </li>
                                     <li>
                                         <i class="bx bx-link"></i>
-                                        <a href="https://ticketpro-ih1o.onrender.com/" target="_blank">DEMO</a>
+                                        <a
+                                            href="https://ticketpro-ih1o.onrender.com/"
+                                            target="_blank"
+                                            >DEMO LINK</a
+                                        >
                                     </li>
                                     <li>
                                         <i class="bx bx-link"></i>
-                                        <a href="https://github.com/IlonaSkargovskaia/finalProject" target="_blank">GitHub</a>
+                                        <a
+                                            href="https://github.com/IlonaSkargovskaia/finalProject"
+                                            target="_blank"
+                                            >GitHub</a
+                                        >
                                     </li>
                                 </ul>
                             </div>
                             <div class="portfolio-description">
-                                <h2>TicketPRO (event ticketing system with QR codes)</h2>
+                                <h2>
+                                    TicketPRO (event ticketing system with QR
+                                    codes)
+                                </h2>
                                 <p>
-                                   <b>My final project at the Developers Institute developed during 2.5 weeks.</b> It is user-friendly online event ticketing system, built on Node.js, React.js, JWT, AWS and PostgreSQL that aims to simplify the process of event organization and ticket purchasing.Project provides users with a seamless and convenient way to discover, browse, and book tickets for various events such as concerts, sports events, conferences, and more. Additionally, the system includes QR codes on tickets for enhanced security and ease of entry to events.
+                                    <b
+                                        >Winner and got the special award "Best
+                                        overall project" (developed during 2.5
+                                        weeks)</b
+                                    >
                                 </p>
-                                <p><b>Winner and got the special award "Best overall project"</b></p>
+                                <p>
+                                    Web application for booking event tickets.
+                                    Users can view event details, purchase
+                                    tickets, and select seats in an interactive
+                                    hall. The application uses React for the
+                                    frontend, integrates with a backend API
+                                    Node.js, PostgreSQL, JWT for authentication
+                                    and utilizes the react-leaflet library for
+                                    displaying event locations on maps. Also I
+                                    used AWS S3 to store images what users
+                                    upload to the web application.
+                                </p>
+                                <h3>Features:</h3>
+                                <ol>
+                                    <li>
+                                        <strong>Event Information:</strong>
+                                        <ul>
+                                            <li>
+                                                View detailed event information,
+                                                including title, description,
+                                                date, location, and available
+                                                seats.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <strong
+                                            >Ticket Purchase and Seat
+                                            Selection:</strong
+                                        >
+                                        <ul>
+                                            <li>
+                                                Enable users to purchase event
+                                                tickets and choose specific
+                                                seats in an interactive hall
+                                                layout.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <strong>Authorization System:</strong>
+                                        <ul>
+                                            <li>
+                                                Implement an authorization
+                                                system to ensure only authorized
+                                                users can purchase tickets.
+                                                Organizers have the privilege to
+                                                create, update, and delete
+                                                events.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <strong>Map Integration:</strong>
+                                        <ul>
+                                            <li>
+                                                Display event locations on maps
+                                                using the React-Leaflet library
+                                                with OpenStreetMap tiles.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <strong
+                                            >Real-Time Ticket
+                                            Information:</strong
+                                        >
+                                        <ul>
+                                            <li>
+                                                Users can view the total price
+                                                of selected tickets and check
+                                                the availability of tickets in
+                                                real-time.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <strong
+                                            >Personal QR Code
+                                            Generation:</strong
+                                        >
+                                        <ul>
+                                            <li>
+                                                Upon a successful purchase,
+                                                every user receives a personal
+                                                QR code for each seat via email.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ol>
+
+                                <h3>Technologies Used:</h3>
+
+                                <ul>
+                                    <li>
+                                        <strong>React:</strong> Building the
+                                        dynamic user interface.
+                                    </li>
+                                    <li>
+                                        <strong>React Router:</strong> Managing
+                                        different pages and navigation.
+                                    </li>
+                                    <li>
+                                        <strong>Axios:</strong> Handling HTTP
+                                        requests to the backend API.
+                                    </li>
+                                    <li>
+                                        <strong>qrcode:</strong> Generating QR
+                                        codes.
+                                    </li>
+                                    <li>
+                                        <strong>uuid:</strong> Creating unique
+                                        IDs for every seat.
+                                    </li>
+                                    <li>
+                                        <strong>AWS-SDK:</strong> Uploading
+                                        images to Amazon cloud.
+                                    </li>
+                                    <li>
+                                        <strong>react-leaflet:</strong>
+                                        Displaying event locations on maps.
+                                    </li>
+                                    <li>
+                                        <strong>Bootstrap:</strong> Styling and
+                                        layout components.
+                                    </li>
+                                    <li>
+                                        <strong>JWT and decode:</strong>
+                                        Authentication using tokens.
+                                    </li>
+                                    <li>
+                                        <strong>LocalStorage:</strong> Storing
+                                        tokens during their expiration time.
+                                    </li>
+                                    <li>
+                                        <strong>BCrypt:</strong> Ensuring the
+                                        security of user passwords.
+                                    </li>
+                                    <li>
+                                        <strong>Nodemailer:</strong> Sending
+                                        emails with event details and QR codes.
+                                    </li>
+                                    <li>
+                                        <strong>Context API:</strong> Managing
+                                        global state and user authentication.
+                                    </li>
+                                    <li>
+                                        <strong>Toastify:</strong> Displaying
+                                        user notifications.
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
         </main>
 
         <footer id="footer">
