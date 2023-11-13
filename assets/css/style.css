@@ -81,7 +81,7 @@ h6 {
   width: 120px;
   border: 8px solid #2c2f3f;
   height: 120px;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 #header .profile h1 {
@@ -121,7 +121,7 @@ h6 {
   text-decoration: none;
 }
 
-#header .subtitle{
+#header .subtitle {
   color: #6f7180;
   text-align: center;
   display: block;
@@ -131,7 +131,7 @@ h6 {
   margin-left: 300px;
 }
 
-#header .cv{
+#header .cv {
   width: fit-content;
   margin: auto;
   margin-top: 70px;
@@ -353,9 +353,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about{
-  padding-top:30px;
-} 
+.about {
+  padding-top: 30px;
+}
 
 .about .content h3 {
   font-weight: 700;
@@ -480,18 +480,18 @@ section {
   background-color: #149ddd;
 }
 
-.skills-images{
+.skills-images {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
 
   justify-content: flex-start;
   align-items: center;
-  
+
 }
 
 
-.skills-img img{
+.skills-img img {
   max-width: 100px;
   max-height: 40px;
 }
@@ -561,9 +561,10 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 
-.port{
+.port {
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -609,7 +610,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 0;
   right: 0;
@@ -630,19 +631,22 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
+  height: 70%;
+  align-items: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  font-size: 28px;
+  color: transparent;
+  font-size: 58px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  /* background: rgba(0, 0, 0, 0.75); */
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
+  height: -webkit-fill-available;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  color: #fff
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
@@ -903,9 +907,9 @@ section {
   margin-right: 10px;
 }
 
-.contact .info i:hover{
+.contact .info i:hover {
   background-color: #149ddd;
-  color:#fff;
+  color: #fff;
 }
 
 .contact .info h4 {
